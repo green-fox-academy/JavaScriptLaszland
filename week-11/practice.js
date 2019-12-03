@@ -54,3 +54,7 @@ console.log(r[1] + r[2]);
 let numList = [1, 2, 3, 4, 5];
 numList[2] *= 2;
 console.log(numList[2]);
+
+let ai = [3, 4, 5, 6, 7];
+const sumOfAi = ai => ai.reduce((a,b) => a + b, 0)
+console.log(sumOfAi(ai));
