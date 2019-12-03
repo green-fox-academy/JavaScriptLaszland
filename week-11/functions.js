@@ -1,10 +1,10 @@
-/*
+
 function greetFoxAlert() {
     alert('Hello Green Fox');
 }
-*/
 
-//greetFoxAlert();
+
+greetFoxAlert();
 
 function greetFoxLog() {
     console.log('Hello Green Fox!');
