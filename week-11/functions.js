@@ -34,3 +34,9 @@ function makeGreen(name) {
 
 let name = makeGreen('Tojas');
 greetByName(name);
+
+let baseNum = 123;
+function doubling (number) {
+    return number * 2;
+}
+console.log(doubling(baseNum));
