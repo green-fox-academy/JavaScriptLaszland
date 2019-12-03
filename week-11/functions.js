@@ -40,3 +40,9 @@ function doubling (number) {
     return number * 2;
 }
 console.log(doubling(baseNum));
+
+let nameToGreet = 'Green Fox';
+function greet2(name) {
+    console.log('Hi, dear ' + name + '!');
+}
+greet2(nameToGreet);
