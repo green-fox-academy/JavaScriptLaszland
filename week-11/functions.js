@@ -26,3 +26,11 @@ function greet(greet = 'Hi', name = "pal") {
 
 greet('Hey');
 greet('Hello', 'Tojas');
+
+function makeGreen(name) {
+    let newName = `Green ${name}`;
+    return newName;
+}
+
+let name = makeGreen('Tojas');
+greetByName(name);
