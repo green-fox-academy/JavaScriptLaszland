@@ -46,3 +46,10 @@ function greet2(name) {
     console.log('Hi, dear ' + name + '!');
 }
 greet2(nameToGreet);
+
+let typo = 'Chinchill';
+function appendAFunc(stringToAppend) {
+    stringToAppend = stringToAppend + 'a';
+    return stringToAppend;
+}
+console.log(appendAFunc(typo));
