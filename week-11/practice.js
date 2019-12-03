@@ -39,3 +39,6 @@ console.log(newNumbers.some(function(e){
 let letters = 'apple'.split('');
 console.log(letters);
 console.log(letters.join('@'));
+
+let magicNumbers = [1, 3, 5, 7];
+console.log("The third element is: ", magicNumbers[2]);
