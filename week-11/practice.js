@@ -58,3 +58,13 @@ console.log(numList[2]);
 let ai = [3, 4, 5, 6, 7];
 const sumOfAi = ai => ai.reduce((a,b) => a + b, 0)
 console.log(sumOfAi(ai));
+
+let numList2 = [3, 4, 5, 6, 7];
+let tempArr = [];
+for (i = 0; i < numList2.length; i++) {
+    tempArr[numList2.length - 1 - i] = numList2[i];
+}
+
+numList2.reverse();
+console.log(numList2);
+console.log(tempArr);
