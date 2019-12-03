@@ -50,3 +50,7 @@ firstList.length > secondList.length ? console.log("Fist list is longer") :
 
 let r = [54, 23, 66, 12];
 console.log(r[1] + r[2]);
+
+let numList = [1, 2, 3, 4, 5];
+numList[2] *= 2;
+console.log(numList[2]);
