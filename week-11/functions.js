@@ -19,3 +19,10 @@ function greetByName(name) {
 
 greetByName('Tojas');
 greetByName('Barbi', 'CEO');
+
+function greet(greet = 'Hi', name = "pal") {
+    console.log(greet, name);
+}
+
+greet('Hey');
+greet('Hello', 'Tojas');
