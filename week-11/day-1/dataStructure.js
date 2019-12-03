@@ -6,3 +6,11 @@ let example = 'In a dishwasher far far away';
 // Please fix it for me!
 // Expected ouput: In a galaxy far far away
 console.log(example.replace('dishwasher', 'galaxy'));
+
+function reverse(text) {
+    return text.split("").reverse().join("");
+} 
+
+let reversed = `.eslaf eb t'ndluow ecnetnes siht ,dehctiws erew eslaf dna eurt fo sgninaem eht fI`;
+console.log(reverse(reversed));
+console.log(reversed);
