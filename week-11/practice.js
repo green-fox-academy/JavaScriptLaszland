@@ -42,3 +42,7 @@ console.log(letters.join('@'));
 
 let magicNumbers = [1, 3, 5, 7];
 console.log("The third element is: ", magicNumbers[2]);
+
+let firstList = [1, 2, 3];
+let secondList = [4, 5];
+firstList.length > secondList.length ? console.log("Fist list is longer") : console.log("Second list is longer");
