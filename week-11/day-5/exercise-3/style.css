@@ -10,14 +10,13 @@ body {
     list-style: none;
     display: flex;
     background-color: #ffd62a;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .purple {
     width: 105px;
     height: 105px;
-    margin: 0;
-    padding: 0;
+    margin: 0 0 0 5px;
     background-color: #b02aff;
 }
