@@ -83,7 +83,18 @@ p {
     top: 120px;
     justify-content: center;
     display: inline-flex;
+}
 
+#tn1 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    opacity: 0.5;
+}
+
+/* todo: re-write this tn1 part into general */
+#tn1:hover{
+    opacity: 1;
 }
 
 li {
@@ -93,6 +104,7 @@ li {
     margin: 5px;
     border: 3px solid grey;
     border-radius: 7px;
+    box-shadow: 2px 2px 6px grey;
 }
 
 li:hover {
