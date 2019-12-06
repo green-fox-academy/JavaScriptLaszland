@@ -11,11 +11,13 @@ body {
     display: flex;
     background-color: #ffd62a;
     align-items: center;
+    justify-content: space-between;
 }
 
 .purple {
     width: 105px;
     height: 105px;
+    margin: 0;
+    padding: 0;
     background-color: #b02aff;
-    margin: 0 5px 0 0;
 }
