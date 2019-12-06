@@ -10,7 +10,7 @@ body {
 }
 
 .menu {
-    width: 100%;
+    width: 678%;
     height: 55px;
     margin: 0;
     padding: 0;
@@ -18,12 +18,13 @@ body {
     justify-content: flex-start;
     background-color: #b02aff;
     align-items: center;
+    position: fixed;
 }
 
 li {
     height: 30px;
     width: 75px;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 7px;
     background-color: #2aeaff;
     list-style: none;
     display: block;
