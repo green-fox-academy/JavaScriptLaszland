@@ -1,0 +1,24 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: #ffffff;
+    height: 280px;
+    width: 753px;
+}
+
+.purple {
+    height: 105px;
+    width: 105px;
+    background-color: #b02aff;
+    position: absolute;
+    top: 86px;
+    left: 320px;
+}
+
+.yellow {
+    height: 280px;
+    width: 753px;
+    background-color: #ffd62a;
+}
