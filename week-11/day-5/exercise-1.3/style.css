@@ -22,16 +22,19 @@ body {
 
 .green {
     background-color: #51d400;
-    float: right; 
+    float: right;
+    order: 3; 
 }
 
 .yellow {
     background-color: #ffd62a;
     float: right;
     min-width: 380px;
+    order: 2;
 }
 
 .purple {
     background-color: #b02aff;
     float: right;
+    order: 1;
 }
