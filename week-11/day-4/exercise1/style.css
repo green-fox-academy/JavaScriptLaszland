@@ -4,17 +4,13 @@ body {
 
 .container {
     background-color: white;
-    width: 676px;
-    margin: 10px;
-    padding: 53px;
+    max-width: 570px;
     display: flex;
 }
 
 .item {
     width: 190px;
-    height: 190px;
-    align-items: center;
-    
+    height: 190px; 
 }
 
 .green {
