@@ -1,0 +1,37 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.item {
+    height: 190px;
+    width: 190px;
+}
+
+.green {
+    background-color: #51d400;
+    float: right; 
+}
+
+.yellow {
+    background-color: #ffd62a;
+    float: right;
+    min-width: 380px;
+}
+
+.purple {
+    background-color: #b02aff;
+    float: right;
+}
