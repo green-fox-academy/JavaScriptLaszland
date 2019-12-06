@@ -4,12 +4,13 @@ body {
 
 .container {
     width: 678px;
-    height: auto;
+    height: 100%;
     margin: auto;
+    background-color: #fff;
 }
 
 .menu {
-    width: 678px;
+    width: 100%;
     height: 55px;
     margin: 0;
     padding: 0;
@@ -25,6 +26,7 @@ li {
     margin: 0 0 0 15px;
     background-color: #2aeaff;
     list-style: none;
+    display: block;
 }
 
 .wraper {
@@ -37,10 +39,22 @@ li {
     background-color: #ffd62a;
     height: 452px;
     width: 452px;
+    margin: 7px;
+    margin-left: 0;
+    order: 2;
 }
 
 .sidebar {
     background-color: #51d400;
     height: 452px;
     width: 226px;
+    margin: 7px;
+    order: 1;
+}
+
+.footer {
+    height: 55px;
+    width: 664px;
+    background-color: #cccccc;
+    margin: 0 7px 7px 7px;
 }
