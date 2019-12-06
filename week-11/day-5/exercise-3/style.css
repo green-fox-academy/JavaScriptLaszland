@@ -1,0 +1,21 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    height: 280px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    background-color: #ffd62a;
+    align-items: center;
+}
+
+.purple {
+    width: 105px;
+    height: 105px;
+    background-color: #b02aff;
+    margin: 0 5px 0 0;
+}
