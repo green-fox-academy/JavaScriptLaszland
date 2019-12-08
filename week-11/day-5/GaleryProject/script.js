@@ -50,7 +50,7 @@ var morocco = {
 const listOfPictures = [africa, basaar, beach, desert, geishas, japan, montain, morocco];
 
 
-/* *** SELECTED OBJECTS *** */
+/* *** GLOBAL VARIABLES *** */
 var pictureToShow = document.getElementById('p789');
 let counter = 0;
 var rightArrow = document.getElementById('a222');
@@ -65,7 +65,7 @@ setTitleAndStory();
 setSelectedThumbnail();
 
 
-/* *** CLICK HANDLER *** */
+/* *** CLICK HANDLERS *** */
 rightArrow.onclick = function increaseCounter() {
     counter++;
     if (counter >= listOfPictures.length) {
