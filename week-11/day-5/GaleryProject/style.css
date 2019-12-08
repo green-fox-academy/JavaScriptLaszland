@@ -48,13 +48,13 @@ body{
 
 #p789 {
     height: 100%;
-    width: 100%;
+    width: 800px;
     overflow: hidden;
 }
 
 .text {
     height: 90px;
-    width: 807px;
+    width: 800px;
     background: #000000;
     opacity: 0.6;
     position: absolute;

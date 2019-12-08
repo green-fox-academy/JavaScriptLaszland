@@ -31,7 +31,7 @@ var geishas = {
 
 var japan = {
     path:  'assets/japan.jpg',
-    title: 'Tower',
+    title: 'Gate of Gods',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi enim nunc faucibus a pellentesque sit amet. Cras ornare arcu dui vivamus arcu felis. Viverra accumsan in nisl nisi scelerisque.'
 };
 
@@ -53,8 +53,8 @@ const listOfPictures = [africa, basaar, beach, desert, geishas, japan, montain, 
 /* *** GLOBAL VARIABLES *** */
 var pictureToShow = document.getElementById('p789');
 let counter = 0;
-var rightArrow = document.getElementById('a222');
-var leftArrow = document.getElementById('a111');
+var rightArrow = document.getElementsByClassName('right')[0];
+var leftArrow = document.getElementsByClassName('left')[0];
 var title = document.getElementById('234');
 var story = document.getElementById('345');
 
