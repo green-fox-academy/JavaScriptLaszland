@@ -1,3 +1,4 @@
+/* *** DATABASE *** */
 var africa = {
     path:  'assets/africa.jpg',
     title: 'Africa',
@@ -45,21 +46,34 @@ var morocco = {
     title: 'Colorful Morocco',
     story: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi enim nunc faucibus a pellentesque sit amet. Cras ornare arcu dui vivamus arcu felis. Viverra accumsan in nisl nisi scelerisque.'
 };
-var pictureToShow = document.getElementById('p789');
-const listOfPictures = [africa, basaar, beach, desert, geishas, japan, montain, morocco];
-let counter = 0;
 
+const listOfPictures = [africa, basaar, beach, desert, geishas, japan, montain, morocco];
+
+
+/* *** SELECTED OBJECTS *** */
+var pictureToShow = document.getElementById('p789');
+let counter = 0;
 var rightArrow = document.getElementById('a222');
 var leftArrow = document.getElementById('a111');
+var title = document.getElementById('234');
+var story = document.getElementById('345');
 
-pictureToShow.setAttribute('src', listOfPictures[counter].path);
 
+/* *** DEFAULT SETUP *** */
+setPicture();
+setTitleAndStory();
+setSelectedThumbnail();
+
+
+/* *** CLICK HANDLER *** */
 rightArrow.onclick = function increaseCounter() {
     counter++;
     if (counter >= listOfPictures.length) {
         counter = 0;
     }
-    pictureToShow.setAttribute('src', listOfPictures[counter].path);
+    setPicture();
+    setTitleAndStory();
+    setSelectedThumbnail();
 }
 
 leftArrow.onclick = function decreaseCounter() {
@@ -67,5 +81,35 @@ leftArrow.onclick = function decreaseCounter() {
     if (counter < 0) {
         counter = listOfPictures.length - 1;
     }
+    setPicture();
+    setTitleAndStory();
+    setSelectedThumbnail();
+}
+
+
+
+/* ***  FUNCTIONS *** */
+function defaultThumbnail () {
+    var thumbnail = document.getElementsByTagName('li');
+    for (let i = 0; i < thumbnail.length; i++) {
+        thumbnail[i].style.transform = "scale(1, 1)";
+        thumbnail[i].style.opacity = "0.5";
+    }
+}
+
+function setSelectedThumbnail () {
+    defaultThumbnail();
+    var thumbnail = document.getElementById(counter);
+    thumbnail.style.transform = "scale(1.2, 1.2)";
+    thumbnail.style.opacity = "1";
+}
+
+function setPicture () {
     pictureToShow.setAttribute('src', listOfPictures[counter].path);
 }
+
+function setTitleAndStory () {
+    title.innerText = listOfPictures[counter].title;
+    story.innerText = listOfPictures[counter].story;
+}
+
