@@ -86,6 +86,8 @@ leftArrow.onclick = function decreaseCounter() {
     setSelectedThumbnail();
 }
 
+clickEvenOnThumbnail();
+
 
 
 /* ***  FUNCTIONS *** */
@@ -111,5 +113,17 @@ function setPicture () {
 function setTitleAndStory () {
     title.innerText = listOfPictures[counter].title;
     story.innerText = listOfPictures[counter].story;
+}
+
+function clickEvenOnThumbnail () {
+    var thumbnail = document.getElementsByTagName('li');
+    for (let i = 0; i < thumbnail.length; i++) {
+        thumbnail[i].addEventListener('click', function(){
+            counter = thumbnail[i].id;
+            setPicture();
+            setTitleAndStory();
+            setSelectedThumbnail();
+        });
+    }
 }
 
