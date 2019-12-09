@@ -1,6 +1,5 @@
-
-# Created by https://www.gitignore.io/api/macos,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=macos,visualstudiocode
+# Created by https://www.gitignore.io/api/react,macos,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=react,macos,visualstudiocode
 
 ### macOS ###
 # General
@@ -30,6 +29,22 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_componets
+
+*.sublime*
+
+psd
+thumb
+sketch
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -41,4 +56,4 @@ Temporary Items
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/macos,visualstudiocode
+# End of https://www.gitignore.io/api/react,macos,visualstudiocode
